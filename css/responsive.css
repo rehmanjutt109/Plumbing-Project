@@ -755,4 +755,88 @@
         border-radius: 50%;
         border: 1px solid #ffffff26;
     }
+
+    .accordion {
+        background-color: transparent !important;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .accordion-item {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+        padding: 0;
+        margin: 10px auto !important;
+    }
+
+    .accordion-header {
+        background-color: transparent !important;
+        margin: 0;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: transparent !important;
+        color: #fff !important;
+        box-shadow: none !important;
+    }
+
+    .accordion-button:focus {
+        border-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+    .accordion-button::after {
+        display: none;
+    }
+
+    .accordion-collapse {
+        border: none !important;
+    }
+
+    .accordion-body {
+        background-color: transparent !important;
+        text-align: center !important;
+        padding: 10px auto !important;
+        border: none !important;
+    }
+
+    .accordion-body li {
+        list-style: none;
+        text-align: center;
+        margin: 8px 0;
+    }
+
+    .accordion-body li a {
+        color: #ccc !important;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 0.3em 1.5em;
+        text-transform: capitalize;
+        transition: color 0.3s ease;
+    }
+
+    .accordion-body li a:hover {
+        color: #fff !important;
+    }
+
+    .ab-button {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+        padding: 0 !important;
+        margin: 0;
+        text-align: center !important;
+        justify-content: center !important;
+        color: #fff !important;
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+
+
 }
