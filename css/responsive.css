@@ -838,5 +838,8 @@
         letter-spacing: 1px;
     }
 
-
+    .footer-content p {
+        font-size: 15px;
+        line-height: 21px;
+    }
 }
