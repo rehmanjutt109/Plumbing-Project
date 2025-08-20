@@ -1348,7 +1348,7 @@
 
 .footer {
     position: relative; 
-    padding: 80px 70px 14px;
+    padding: 80px 70px 23px;
     background-color: #1d1d1d;
     z-index: 3;        
 }
@@ -1483,17 +1483,17 @@
 html {
     scroll-behavior: smooth;
 }
-.footer-content{
-    margin-top: 15px;
+
+.footer-content {
+    margin-top: 25px;
     border-top: 1px solid #3f3f3f;
-    position: relative; /* added */
-    z-index: 3;         /* added */
 }
+
 .footer-content p {
     font-size: 16px !important;
     font-weight: 400;
     color: #d1d1d1;
-    padding: 15px 0 0 !important;
+    padding: 28px 0 0 !important;
     margin: 0 !important;
     line-height: 28.22px;
     font-family: 'DM Sans', sans-serif;
