@@ -494,11 +494,11 @@
     margin: 0;
     padding-top: 11px;
 }
-
-/* .section1 .row img {
-    width: 100%;
-} */
-
+.container-icon:nth-child(1):hover,
+.container-icon:nth-child(2):hover,
+.container-icon:nth-child(3):hover{
+    transform: translateY(-5px);
+}
 .container-icon {
     background-color: transparent;
     transition: background-color 0.9s ease;
