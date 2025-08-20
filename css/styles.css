@@ -1045,6 +1045,9 @@
     font-size: 18.7px;
 }
 
+.swiper{
+    padding-bottom: 75px;
+}
 .swiper-slide p {
     font-size: 19px;
     line-height: 29.07px;
@@ -1054,8 +1057,10 @@
 }
 
 .pagination {
-    margin-top: 2.4em !important;
+    position: absolute;
     color: #fdbf6e !important;
+    margin-top: 2.4em;
+    bottom: 0 !important;
     background: transparent !important;
 }
 
@@ -1063,8 +1068,9 @@
     background: #fdbf6e !important;
     width: 8px !important;
     height: 8px !important;
-    margin: 2.4em 5px 0 !important;
+    margin: 0 5px 0 !important;
 }
+
 
 .testimonial-item {
     margin-top: 60px;
