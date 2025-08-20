@@ -496,6 +496,7 @@
 .container-icon:nth-child(2):hover,
 .container-icon:nth-child(3):hover{
     transform: translateY(-5px);
+    transition: ease 0.3s;
 }
 .container-icon {
     background-color: transparent;
