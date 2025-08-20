@@ -1483,3 +1483,12 @@ html {
     position: relative; /* added */
     z-index: 3;         /* added */
 }
+.footer-content p {
+    font-size: 16px !important;
+    font-weight: 400;
+    color: #d1d1d1;
+    padding: 15px 0 0 !important;
+    margin: 0 !important;
+    line-height: 28.22px;
+    font-family: 'DM Sans', sans-serif;
+}
