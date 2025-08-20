@@ -37,7 +37,6 @@
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     .accordion-item {
@@ -45,7 +44,7 @@
         box-shadow: none !important;
         border: none !important;
         padding: 0;
-        margin: 10px 0;
+        margin: 10px auto !important;
     }
 
     .accordion-header {
@@ -60,7 +59,7 @@
         padding: 0 !important;
         margin: 0;
         text-align: center !important;
-        justify-content: center !important;
+        /* justify-content: center !important; */
         color: #fff !important;
         font-size: 22px;
         font-weight: 600;
@@ -98,7 +97,6 @@
         background-color: transparent !important;
         text-align: center !important;
         padding: 10px 0;
-        margin: 0 auto !important;
         border: none !important;
     }
 
@@ -113,7 +111,6 @@
         text-decoration: none;
         font-size: 16px;
         padding: 0.3em 1.5em;
-        margin: 0 auto !important;
         text-transform: capitalize;
         transition: color 0.3s ease;
     }
@@ -654,7 +651,7 @@
     }
 
     .section3 {
-        padding: 80px 30px;
+        padding: 80px 0px;
     }
 
     .swiper-slide {
@@ -849,5 +846,8 @@
         font-size: 15px;
         line-height: 21px;
         padding: 15px 0 0 !important;
+    }
+    .scroll-btn{
+        bottom: 10px;
     }
 }
