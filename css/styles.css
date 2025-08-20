@@ -43,7 +43,7 @@
 .fa-brands {
     font-size: 15px;
     color: #fff;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .fa-facebook-f:hover {
