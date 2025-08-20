@@ -206,9 +206,7 @@
     color: #d1d1d1 !important;
     text-decoration: none;
     padding: 0px !important;
-    /* margin: 7px 22px 0 7px; */
     position: relative;
-    width: fit-content;
     font-family: 'DM Sans', sans-serif;
     transition: 0.2s ease
 }
