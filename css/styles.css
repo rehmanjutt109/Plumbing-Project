@@ -1327,8 +1327,10 @@
 }
 
 .footer {
+    position: relative; 
     padding: 80px 70px 23px;
     background-color: #1d1d1d;
+    z-index: 3;        
 }
 
 .footer h1 {
@@ -1464,13 +1466,6 @@ html {
 .footer-content{
     margin-top: 15px;
     border-top: 1px solid #3f3f3f;
-}
-.footer-content p{
-    font-size: 16px !important;
-    font-weight: 400 !important;
-    color: #d1d1d1 !important;
-    padding: 15px 0 0 !important;
-    margin: 0;
-    line-height: 28.22px !important;
-    font-family: 'DM Sans', sans-serif;
+    position: relative; /* added */
+    z-index: 3;         /* added */
 }
