@@ -1466,11 +1466,11 @@ html {
     border-top: 1px solid #3f3f3f;
 }
 .footer-content p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #d1d1d1;
-    padding: 15px 0 0;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #d1d1d1 !important;
+    padding: 15px 0 0 !important;
     margin: 0;
-    line-height: 28.22px;
+    line-height: 28.22px !important;
     font-family: 'DM Sans', sans-serif;
 }
