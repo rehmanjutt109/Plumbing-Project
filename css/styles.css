@@ -1498,3 +1498,6 @@ html {
     line-height: 28.22px;
     font-family: 'DM Sans', sans-serif;
 }
+.scroll-btn{
+    bottom: 10px;
+}
