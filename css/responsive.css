@@ -457,9 +457,14 @@
         line-height: 19px;
     }
 
-    .footer-content p {
+    .footer p {
         font-size: 16px;
         line-height: 26.56px;
+    }
+
+    .footer-content p {
+        line-height: 26.56px;
+        padding: 15px 0 0 !important;
     }
 }
 
@@ -841,5 +846,6 @@
     .footer-content p {
         font-size: 15px;
         line-height: 21px;
+        padding: 15px 0 0 !important;
     }
 }
